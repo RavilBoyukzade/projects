@@ -1,0 +1,51 @@
+// NAVIGATION
+.navigation {
+    height: 75px;
+    width: auto;
+    background-color: white;
+    position: sticky;
+    .container {
+        .logo {
+            padding: 5px;
+        }
+    }
+    .links {
+        a {
+            text-decoration: none;
+            margin-right: 20px;
+            color: rgb(41, 40, 40);
+        }
+        a:hover {
+            color: $facebook-color;
+        }
+    }
+    .social-media {
+        ul {
+            li {
+                a {
+                    margin-right: 10px;
+
+                    .fa-instagram {
+                        background: $instagram-color;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                    .fa-facebook {
+                        color: $facebook-color;
+                    }
+                    .fa-linkedin {
+                        color: $linkedin-color;
+                    }
+                    i {
+                        transition:  top ease 0.2s;
+                        position: relative;
+                        top: 0px;
+                        &:hover {
+                            top: -5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

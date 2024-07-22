@@ -1,0 +1,39 @@
+.navigation {
+  height: 75px;
+  width: auto;
+  background-color: white;
+  position: sticky;
+}
+.navigation .container .logo {
+  padding: 5px;
+}
+.navigation .links a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: rgb(41, 40, 40);
+}
+.navigation .links a:hover {
+  color: #4267B2;
+}
+.navigation .social-media ul li a {
+  margin-right: 10px;
+}
+.navigation .social-media ul li a .fa-instagram {
+  background: linear-gradient(to bottom right, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #FCAF45, #FFDC80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navigation .social-media ul li a .fa-facebook {
+  color: #4267B2;
+}
+.navigation .social-media ul li a .fa-linkedin {
+  color: #0a66c2;
+}
+.navigation .social-media ul li a i {
+  transition: top ease 0.2s;
+  position: relative;
+  top: 0px;
+}
+.navigation .social-media ul li a i:hover {
+  top: -5px;
+}/*# sourceMappingURL=style.css.map */
